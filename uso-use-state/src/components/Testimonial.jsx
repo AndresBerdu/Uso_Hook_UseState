@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Testimonial.css";
 
-function Testimonial({img, name, stats, text}) {
+function Testimonial({img, name, stars, text}) {
   return (
     <div className="Testimonial__container">
 
@@ -11,7 +11,7 @@ function Testimonial({img, name, stats, text}) {
         </div>
         
         <div className="Testimonial__content">
-            <p className="Testimonial__starts">{stats}</p>
+            <p className="Testimonial__starts">{stars}</p>
             <p className="Testimonial__text">{text}</p>
         </div>
     </div>
